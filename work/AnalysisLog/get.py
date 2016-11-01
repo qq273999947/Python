@@ -5,7 +5,7 @@ import urllib
 import urllib2
 
 
-url = "http://boxvideo.vp.hz-orp.int.baidu.com/video/quality/infos/?ids=144115191564491170"
+url = "接口地址"
 
 req = urllib2.Request(url)
 #print req
