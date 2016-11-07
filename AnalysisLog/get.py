@@ -8,9 +8,7 @@ import json
 
 for line in open('key'):
     key = line.upper()
-    url = "http://boxvideo.vp.hz-orp.int.baidu.com/video/quality/infos/?ids=" + key
-    #url = "http://boxvideo.vp.hz-orp.int.baidu.com/video/quality/infos/?ids=" + '144115189776058190'
-    #url = "http://boxvideo.vp.hz-orp.int.baidu.com/video/quality/infos/?ids=" + '6003675372063863273'
+    url = "http://..." + key
     req = urllib2.Request(url)
 
     res_data = urllib2.urlopen(req)
